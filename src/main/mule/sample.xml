@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="error-projectFlow" doc:id="2f3002e6-3b54-4289-b585-50c84a727431" >
 		<http:listener doc:name="Listener" doc:id="a8308240-0392-49c0-8712-1cad3e9ff83e" config-ref="HTTP_Listener_config" path="test"/>
-		<set-payload value='#["Success"]' doc:name="Set Payload" doc:id="05c0e1ef-8fb7-41af-b215-ecd13ae37399" />
+		<set-payload value='#["Success Ho Gaya"]' doc:name="Set Payload" doc:id="05c0e1ef-8fb7-41af-b215-ecd13ae37399" />
 		<logger level="INFO" doc:name="Logger" doc:id="2cb3d13a-14bc-4907-a5dc-68b8a37ed466" />
 	</flow>
 </mule>
